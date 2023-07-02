@@ -3,7 +3,7 @@ import styles from "./counter.module.css";
 import Gauge from "../gauge";
 
 export default component$(() => {
-  const count = useSignal(70);
+  const count = useSignal(40);
 
   const setCount = $((newValue: number) => {
     if (newValue < 0 || newValue > 100) {
