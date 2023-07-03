@@ -1,1 +1,1 @@
-export * from './buildQueryString'
+export * from "./buildQueryString";

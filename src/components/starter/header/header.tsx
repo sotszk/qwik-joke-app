@@ -14,9 +14,15 @@ export default component$(() => {
         </div>
 
         <ul>
-          <li><Link href="/joke">JOKE</Link></li>
-          <li><Link href="/demo/flower">FLOWER</Link></li>
-          <li><Link href="/demo/todolist">TODO</Link></li>
+          <li>
+            <Link href="/joke">JOKE</Link>
+          </li>
+          <li>
+            <Link href="/demo/flower">FLOWER</Link>
+          </li>
+          <li>
+            <Link href="/demo/todolist">TODO</Link>
+          </li>
         </ul>
 
         <ul>

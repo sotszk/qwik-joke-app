@@ -1,5 +1,5 @@
-import { component$ } from '@builder.io/qwik';
-import { useServerTimeLoader } from '../layout';
+import { component$ } from "@builder.io/qwik";
+import { useServerTimeLoader } from "../layout";
 
 export default component$(() => {
   const signal = useServerTimeLoader();
@@ -10,5 +10,5 @@ export default component$(() => {
       <p>Time: {signal.value.date}</p>
       <p>Message: {signal.value.content.message}</p>
     </section>
-  )
-})
+  );
+});

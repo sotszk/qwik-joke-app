@@ -22,8 +22,8 @@ export const useServerTimeLoader = routeLoader$(() => {
   return {
     date: new Date().toISOString(),
     content: {
-      message: "Hello, world!"
-    }
+      message: "Hello, world!",
+    },
   };
 });
 
